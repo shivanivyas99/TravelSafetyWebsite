@@ -86,3 +86,21 @@ footer {
 .team-member .email {
     margin: 0;
 }
+ul {
+    padding: 0;
+    list-style-type: none; /* Removes default bullets */
+}
+
+li {
+    background-color: #f9f9f9; /* Light grey background for each item */
+    margin-bottom: 10px; /* Adds space between items */
+    padding: 10px;
+    border-radius: 5px; /* Slightly rounded corners for aesthetics */
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1); /* Subtle shadow for depth */
+}
+
+li strong {
+    color: var(--primary-color); /* Highlights the feature name, ensure --primary-color is defined in :root */
+    margin-right: 5px; /* Adds a small space after the bold feature name */
+}
+
